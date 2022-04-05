@@ -12,6 +12,16 @@
         </NuxtLink>
         </ul>
       </v-card>
+      <v-card>
+        <NuxtLink :to="`GOTOSLUG`">
+        <li>SLUG DEFAULT</li>
+        </NuxtLink>
+      </v-card>
+      <v-card>
+        <NuxtLink :to="`/parent`">
+        <li>PARENT ROUTE</li>
+        </NuxtLink>
+      </v-card>
     </v-col>
   </v-row>
 </template>
